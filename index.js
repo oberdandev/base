@@ -1,11 +1,13 @@
 const express = require('express')
+const path = require('path')
+const dir = __dirname
 
 const app = express() 
 
 const port = process.env.PORT || 3000
 
 app.get('/', (req, res)=>{
-    res.send('Oi, meu primeiro app no heroku!')
+    res.sendFile(path.join(dir + "/src/index.html"))    
 })
 
 
