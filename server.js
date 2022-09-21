@@ -6,6 +6,9 @@ const app = express()
 
 const port = process.env.PORT || 3000
 
+app.use('/assets', express.static(dir + '/assets'))
+
+
 app.get('/', (req, res)=>{
     res.sendFile(path.join(dir + "/src/index.html"))    
 })

@@ -1,15 +1,304 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="pt-br">
 <head>
     <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>OLTSEL ads</title>
+
+    <!-- font awesome cdn link  -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css">
+
+    <!-- custom css file link  -->
+    <link rel="stylesheet" href="assets/css/style.css">
+
+    <link rel="stylesheet" href="assets/css/teste.css">
+
+    <link rel="icon" href="assets/images/home-img.svg">
+
 </head>
 <body>
     
-    <h1>OI MEU PRIMEIRO APP NO HEROKU AGORA SERVINDO UM HTML HEHEHEHEHE</h1>
+<!-- header section starts  -->
 
+<header>
+
+    <a href="#" class="logo"><span>OLT</span>SEL</a>
+
+    <input type="checkbox" id="menu-bar">
+    <label for="menu-bar" class="fas fa-bars"></label>
+
+    <nav class="navbar">
+        <a href="#contact">Home</a>
+        <a href="#features">Estratégias</a>
+        <a href="#about"></a>
+        <a href="#review">clientes</a>
+        <a href="#pricing">planos</a>
+        
+    </nav>
+
+</header>
+
+<!-- header section ends -->
+
+<!-- home section starts  -->
+
+<section class="home" id="home">
+
+    <div class="contact" id="contact">
     
+        <form action="">
+    
+            <h1 class="heading">Entre em contato!</h1>
+    
+            <div class="inputBox">
+                <input type="text" required>
+                <label>nome</label>
+            </div>
+    
+            <div class="inputBox">
+                <input type="email" required>
+                <label>email</label>
+            </div>
+    
+            <div class="inputBox">
+                <input type="number" required>
+                <label>celular</label>
+            </div>
+    
+            <div class="inputBox">
+                <textarea required name="" id="" cols="30" rows="10"></textarea>
+                <label>mensagem</label>
+            </div>
+    
+            <input type="submit" class="btn" value="send message">
+    
+        </form>
+    
+    </div>
+    
+    <div class="content">
+        <h3><span>BEM VINDO A</span> <span class="my-h3">OLTSEL</span> <span>ADS</span></h3>
+        <p>Somos a única empresa especializada em vendas e captação de clientes para empresas de energia solar através do marketing de sedução no
+        Brasil.</p> 
+        <a href="#" class="btn">AGENDE AGORA!</a>
+    </div>
+
+</section>
+
+
+
+<!-- home section ends -->
+
+<!-- features section starts  -->
+
+<section class="features" id="features">
+
+    <h1 class="heading"> Estratégias da Oltsel </h1>
+
+    <div class="box-container">
+
+        <div class="box">
+            <img src="assets/images/starting-a-business-proyect-animate.svg" alt="">
+            <h3>Economia e sustentabilidade</h3>
+            <p>Garanta a previsibilidade do faturamento, visto a aquisição constante de novos leads e a recorrência dos já fidelizados.</p>
+        </div>
+
+        <div class="box">
+            <img src="assets/images/generating-new-leads-animate.svg" alt="">
+            <h3>Valorização do Imóvel residencial e comercial</h3>
+            <p>Procedimento com alta margem de lucro, garante dessa forma, uma grande injeção de receita no caixa da empresa todos os meses.</p>
+        </div>
+
+        <div class="box">
+            <img src="assets/images/site-stats-animate.svg" alt="">
+            <h3>Longo período de garantia e performance</h3>
+            <p>Com uma grande demanda no mercado, a aquisição de novos contratos de energia FOTOVOLTAICA promove uma escala previsível e segura do
+                faturamento da empresa.</p>
+        </div>
+
+        
+        <div class="box">
+            <img src="assets/images/f-icon1.svg" alt="">
+            <h3>Proteção contra variação da tarifa de energia</h3>
+            <p>Com a grande variação e escassez no mercado, colocam mais dinheiro no seu bolso, pois promovem a fidelização do público que realmente
+                queiram investir para dimunuir os custos aquisitivos.</p>
+        </div>
+
+    </div>
+
+</section>
+
+<!-- features section ends -->
+
+<!-- about section starts 
+
+<section class="about" id="about">
+
+    <h1 class="heading"> about the app </h1>
+
+    <div class="column">
+
+        <div class="image">
+            <img src="images/about-img.png" alt="">
+        </div>
+
+        <div class="content">
+            <h3>Easy And Perfect Solution For Your Business App</h3>
+            <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Nulla placeat deserunt saepe repudiandae veniam soluta minima dolor hic aperiam iure.</p>
+            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Laudantium, quaerat. Dolorem ratione saepe magni quo inventore porro ab voluptates eos, nam eius provident accusantium, quia similique est, repellendus et reiciendis.</p>
+            <div class="buttons">
+                <a href="#" class="btn"> <i class="fab fa-apple"></i> app store </a>
+                <a href="#" class="btn"> <i class="fab fa-google-play"></i> google-play </a>
+            </div>
+        </div>
+
+    </div>
+
+</section>
+
+ -->
+
+<!-- about section ends -->
+
+<!-- newsletter  -->
+
+<div class="newsletter">
+
+    <h3>Nosso objetivo é simples: preencher sua agenda com bons clientes e aumentar o lucro da sua empresa de energia solar através da captação de
+        leads qualificados.</h3>
+    <p>Essa é a nossa metodologia que já garantiu 1000% de retorno sobre o investimento para nossos clientes, comprovado por mais de 15 empresas de
+        energia solar.</p>
+</div>
+
+<!-- review section starts  -->
+
+
+<!-- review section ends -->
+
+<!-- pricing section starts  
+
+<section class="pricing" id="pricing">
+ <h1 class="heading"> Nossos Planos </h1>
+
+    <div class="box-container">
+
+        <div class="box">
+            <h3 class="title">básico</h3>
+            <div class="price">R$50<span>/mês</span></div>
+            <ul>
+                <li> <i class="fas fa-check"></i> lorem ipsum </li>
+                <li> <i class="fas fa-check"></i> lorem ipsum  </li>
+                <li> <i class="fas fa-times"></i> lorem ipsum  </li>
+                <li> <i class="fas fa-times"></i> lorem ipsum  </li>
+            </ul>
+            <a href="#" class="btn">check out</a>
+        </div>
+
+        <div class="box">
+            <h3 class="title">padrão</h3>
+            <div class="price">R$100<span>/mês</span></div>
+            <ul>
+                <li> <i class="fas fa-check"></i> lorem ipsum  </li>
+                <li> <i class="fas fa-check"></i> lorem ipsum  </li>
+                <li> <i class="fas fa-check"></i> lorem ipsum  </li>
+                <li> <i class="fas fa-times"></i> lorem ipsum  </li>
+            </ul>
+            <a href="#" class="btn">check out</a>
+        </div>
+
+        <div class="box">
+            <h3 class="title">premium</h3>
+            <div class="price">R$25<span>/mês</span></div>
+            <ul>
+                <li> <i class="fas fa-check"></i> lorem ipsum  </li>
+                <li> <i class="fas fa-check"></i> lorem ipsum  </li>
+                <li> <i class="fas fa-check"></i>lorem ipsum  </li>
+                <li> <i class="fas fa-check"></i> lorem ipsum  </li>
+            </ul>
+            <a href="#" class="btn">check out</a>
+        </div>
+
+    </div>
+
+</section>
+-->
+<!-- pricing section ends -->
+
+<!-- contact section starts  -->
+
+
+<!-- contact section edns -->
+
+<!-- footer section starts  -->
+
+<div class="footer">
+
+    <div class="box-container">
+
+        <div class="box">
+            <h3>sobre nós</h3>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Amet pariatur rerum consectetur architecto ad tempora blanditiis quo aliquid inventore a.</p>
+        </div>
+
+        <div class="box">
+            <h3>links</h3>
+            <a href="#">home</a>
+            <a href="#">serviços</a>
+            <a href="#">sobre</a>
+            <a href="#">clientes</a>
+            <a href="#">contato</a>
+        </div>
+
+        <div class="box">
+            <h3>social</h3>
+            <a href="#">facebook</a>
+            <a href="#">instagram</a>
+            <a href="#">pinterest</a>
+            <a href="#">twitter</a>
+        </div>
+
+        <div class="box">
+            <h3>contato</h3>
+            <div class="info">
+                <i class="fas fa-phone"></i>
+                <p> (92)9-9999-9999 <br> (92)3999-9999 </p>
+            </div>
+            <div class="info">
+                <i class="fas fa-envelope"></i>
+                <p> example@gmail.com <br> example@gmail.com </p>
+            </div>
+            <div class="info">
+                <i class="fas fa-map-marker-alt"></i>
+                <p> manaus, amazonas - 69005400 </p>
+            </div>
+        </div>
+
+    </div>
+
+    <h1 class="credit"> &copy; copyright @ 2021 by mr. web designer </h1>
+
+</div>
+
+<!-- footer section ends -->
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 </body>
 </html>

@@ -1,0 +1,11 @@
+.titulo {
+    font-size: 5.5rem;
+    color: #333;
+    text-transform: uppercase;
+}
+
+.subtitulo {
+    font-size: 1.7rem;
+    color: #666;
+    padding: 1rem 0;
+}
