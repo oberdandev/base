@@ -13,5 +13,8 @@ app.get('/', (req, res)=>{
     res.sendFile(path.join(dir + "/src/index.html"))    
 })
 
+app.get('/apps', (req,res)=>{
+    res.sendFile(path.join(__dirname + '/src/apps.html'))
+})
 
 app.listen(port, () => console.info('App running at localhost:' + port))
