@@ -474,6 +474,55 @@ header label{
     color:var(--pink);
 }
 
+.secao-faq {
+.sumario {
+    padding: 12px;
+    background-color: transparent;
+    color: #333;
+    position: relative;
+    text-transform: initial;
+    font-size: 2rem;
+    cursor: pointer;
+    display: inline-flex;
+    list-style: none;
+    outline: none;
+    transition: .2s linear;
+}
+
+.sumario-p {
+    padding: 10px;
+    text-transform: initial;
+    color: #666;
+    font-size: 1.3rem;
+}
+
+.sumario::after {
+    content: '+';
+    position: absolute;
+    top: 1rem; 
+    right: -1rem;
+    font-size: 20px;
+    background:  linear-gradient(to right, #f83600 0%, #f9d423 100%);
+    color: transparent;
+    -webkit-background-clip: text;
+    background-clip: text;
+    transition: .2s;
+}
+
+[open] .sumario::after{
+    transform: rotate(135deg);
+}
+
+[open] .sumario {
+    background:  linear-gradient(to right, #f83600 0%, #f9d423 100%);
+    color: transparent;
+    -webkit-background-clip: text;
+    background-clip: text;
+}
+    min-height: auto;
+    padding-bottom: 70px;
+}
+
 .footer{
     padding-top: 3rem;
     background: #1A2634;
