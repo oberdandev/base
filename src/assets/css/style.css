@@ -111,9 +111,9 @@ header label{
 
 .home{
     display: flex;
-    align-items: baseline;
+    align-items: center;
     justify-content: center;
-    gap: 5rem;
+    gap: 1rem;
     background-color: white;  
     background-size: cover;
     background-position: center;
