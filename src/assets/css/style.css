@@ -475,6 +475,10 @@ header label{
 }
 
 .secao-faq {
+    min-height: auto;
+    padding-bottom: 70px;
+}
+
 .sumario {
     padding: 12px;
     background-color: transparent;
@@ -519,9 +523,7 @@ header label{
     -webkit-background-clip: text;
     background-clip: text;
 }
-    min-height: auto;
-    padding-bottom: 70px;
-}
+
 
 .footer{
     padding-top: 3rem;
