@@ -119,7 +119,7 @@ header label{
     background-position: center;
 }
 
-.home .image img{
+.home .image {
     width:40vw;
     animation: float 3s linear infinite;
 }
